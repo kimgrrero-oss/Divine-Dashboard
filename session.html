@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divine - Session Key</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Background Animation -->
+  <div class="ambient-glow">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html" class="logo">Divine</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="session.html">Session Key</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <a href="key.php" class="btn-premium">Premium</a>
+  </nav>
+
+  <main class="page-container">
+    <section class="key-container">
+      <h1>Session Key</h1>
+      <p>Generate a secure key to unlock access.</p>
+
+      <div class="key-display" id="keyOutput" title="Click to copy">
+        Click Generate
+      </div>
+
+      <p id="keyStatus" style="color: var(--text-secondary); margin-top: -10px; margin-bottom: 25px;">
+      </p>
+
+      <button class="btn-generate" id="generateKeyBtn">Generate Key</button>
+    </section>
+
+    <footer>
+      <p>Divine Keys © 2026</p>
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
